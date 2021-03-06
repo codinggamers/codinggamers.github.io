@@ -3,6 +3,10 @@ html {
     box-sizing: border-box
 }
 
+ logo {
+    float: right;
+}
+
 *, *:before, *:after {
     box-sizing: inherit
 }

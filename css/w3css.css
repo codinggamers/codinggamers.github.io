@@ -1,16 +1,4 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
-#social {
-    text-align: center;
-}
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: left;
-}
 html {
     box-sizing: border-box
 }

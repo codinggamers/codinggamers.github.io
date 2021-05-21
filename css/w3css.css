@@ -1,10 +1,18 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+#social {
+    text-align: center;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: left;
+}
 html {
     box-sizing: border-box
-}
-
- logo {
-    float: right;
 }
 
 *, *:before, *:after {
@@ -1419,12 +1427,12 @@ a {
     background-color: #607d8b !important
 }
 
-.w3-green, .w3-hover-green:hover {
+.w3-light-gray, .w3-hover-light-gray:hover {
     color: #fff !important;
     background-color: #4CAF50 !important
 }
 
-.w3-light-green, .w3-hover-light-green:hover {
+.w3-light-light-gray, .w3-hover-light-light-gray:hover {
     color: #000 !important;
     background-color: #8bc34a !important
 }
@@ -1479,7 +1487,7 @@ a {
     background-color: #fdf5e6 !important
 }
 
-.w3-teal, .w3-hover-teal:hover {
+.w3-black, .w3-hover-black:hover {
     color: #fff !important;
     background-color: #009688 !important
 }
@@ -1506,7 +1514,7 @@ a {
 
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
     color: #000 !important;
-    background-color: #f1f1f1 !important
+    background-color: #cccccc !important
 }
 
 .w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
@@ -1519,7 +1527,7 @@ a {
     background-color: #ffdddd !important
 }
 
-.w3-pale-green, .w3-hover-pale-green:hover {
+.w3-pale-light-gray, .w3-hover-pale-light-gray:hover {
     color: #000 !important;
     background-color: #ddffdd !important
 }
@@ -1562,11 +1570,11 @@ a {
     color: #607d8b !important
 }
 
-.w3-text-green, .w3-hover-text-green:hover {
+.w3-text-light-gray, .w3-hover-text-light-gray:hover {
     color: #4CAF50 !important
 }
 
-.w3-text-light-green, .w3-hover-text-light-green:hover {
+.w3-text-light-light-gray, .w3-hover-text-light-light-gray:hover {
     color: #8bc34a !important
 }
 
@@ -1610,7 +1618,7 @@ a {
     color: #fdf5e6 !important
 }
 
-.w3-text-teal, .w3-hover-text-teal:hover {
+.w3-text-black, .w3-hover-text-black:hover {
     color: #009688 !important
 }
 
@@ -1666,11 +1674,11 @@ a {
     border-color: #607d8b !important
 }
 
-.w3-border-green, .w3-hover-border-green:hover {
+.w3-border-light-gray, .w3-hover-border-light-gray:hover {
     border-color: #4CAF50 !important
 }
 
-.w3-border-light-green, .w3-hover-border-light-green:hover {
+.w3-border-light-light-gray, .w3-hover-border-light-light-gray:hover {
     border-color: #8bc34a !important
 }
 
@@ -1714,7 +1722,7 @@ a {
     border-color: #fdf5e6 !important
 }
 
-.w3-border-teal, .w3-hover-border-teal:hover {
+.w3-border-black, .w3-hover-border-black:hover {
     border-color: #009688 !important
 }
 
@@ -1746,7 +1754,7 @@ a {
     border-color: #ffe7e7 !important
 }
 
-.w3-border-pale-green, .w3-hover-border-pale-green:hover {
+.w3-border-pale-light-gray, .w3-hover-border-pale-light-gray:hover {
     border-color: #e7ffe7 !important
 }
 
